@@ -1,0 +1,44 @@
+#
+# This file can be given to mkgmap using the -c option
+# Please edit it first to add a description of each map.
+#
+
+# You can set the family id for the map
+#family-id: 2000
+product-id: 1
+
+##########################################
+latin1
+#unicode
+#code-page: 1257
+####### Map type NL New ##################
+lower-case
+name-tag-list: name:lt,name,int_name,place_name
+max-jobs: 2
+generate-sea: land-tag=natural=background
+precomp-sea:  bounds/sea-latest.zip
+bounds:  bounds/bounds-latest.zip
+location-autofill: is_in,nearest
+split-name-index
+housenumbers
+tdbfile
+show-profiles: 1
+ignore-maxspeeds
+min-size-polygon: 4
+polygon-size-limits=17:2, 15:0
+merge-lines
+add-pois-to-areas
+add-pois-to-lines
+link-pois-to-ways
+road-name-pois
+make-opposite-cycleways
+process-destination
+process-exits
+preserve-element-order
+net
+route
+index
+nsis
+gmapsupp
+list-styles
+

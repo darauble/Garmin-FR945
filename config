@@ -1,0 +1,35 @@
+### MAPS ###
+CONTINENT=europe
+COUNTRY=lithuania
+MAP_TITLE="Lietuva, ble"
+
+#COUNTRY=spain
+#MAP_TITLE="Ispanija, ble"
+
+TYP_NAME=darau-small
+
+### DIRECTORIES ###
+DIR_STYLE=darau-fr945
+DIR_TOOLS=tools
+DIR_DATA=data
+DIR_COUNTRY=${DIR_DATA}/${COUNTRY}
+DIR_SPLIT=${DIR_COUNTRY}/split
+DIR_OUTPUT=output
+DIR_SRTM=SRTM
+DIR_BOUNDS=${DIR_DATA}/bounds
+
+### File names ###
+FILE_PBF=${COUNTRY}-latest.osm.pbf
+FILE_BOUNDS=bounds-latest.zip
+FILE_SEA=sea-latest.zip
+FILE_SRTM=${DIR_SRTM}/${COUNTRY}-srtm.pbf
+FILE_ARGS=${DIR_STYLE}/darau.args
+
+TYP_SOURCE=${DIR_STYLE}/typ/${TYP_NAME}.txt
+TYP_COMPILED=${DIR_DATA}/${TYP_NAME}.typ
+
+### TOOLS ###
+TOOL_MKGMAP=mkgmap-r4806
+TOOL_SPLITTER=splitter-r642
+
+
