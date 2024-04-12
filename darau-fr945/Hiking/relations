@@ -51,5 +51,13 @@ type=route & (route=hiking | route=foot) & osmc:symbol != * {
 	}
 }
 
+
+type=route & (route=bicycle) {
+	apply {
+		set mkgmap:cycling=yes;
+		add name='${name}';
+	}
+}
+
 include '../common/relations';
 

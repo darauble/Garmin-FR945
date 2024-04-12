@@ -14,4 +14,6 @@ mkgmap:black=yes | osmc:symbol ~ 'red.*' [0x10104 level 2 continue]
 mkgmap:purple=yes | osmc:symbol ~ 'purple.*' [0x10105 level 2 continue]
 mkgmap:orange=yes [0x10106 level 2 continue]
 
+mkgmap:cycling=yes [0x10110 level 2 continue]
+
 include '../common/lines';
